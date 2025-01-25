@@ -1,4 +1,4 @@
-import quiz from "../../Images/quiz.PNG";
+import quiz from "../../Images/quiz.png";
 import apis from "../../Images/api.png";
 import form from "../../Images/form.png";
 import { useState,useEffect } from "react";
