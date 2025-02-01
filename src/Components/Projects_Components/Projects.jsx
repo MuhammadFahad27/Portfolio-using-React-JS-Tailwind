@@ -8,7 +8,7 @@ import { useState,useEffect } from "react";
 const Projects = () => {
 
   
-      const [project, setproject] = useState("")
+    //   const [project, setproject] = useState("")
       const [project2, setproject2] = useState("")
 
   
