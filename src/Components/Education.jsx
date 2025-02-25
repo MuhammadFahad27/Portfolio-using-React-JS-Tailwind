@@ -26,18 +26,14 @@ const Education = () => {
       <div className=''>
           <div className={`${education}`}>
               <h1 className='text-white mt-[80px] 
-              ml-[490px]
-              sm:ml-[230px]
-              sm:text-3xl
-              md:ml-[300px]
-              lg:ml-[430px]
-              xl:ml-[510px]
+              text-center text-3xl
               xl:text-5xl 
-              2xl:ml-[700px]'>Education <FontAwesomeIcon icon={faGraduationCap}  color='gray'/></h1>
+             '>Education <FontAwesomeIcon icon={faGraduationCap}  color='gray'/></h1>
           </div>
           <div className={`${education2}`}>
-            <div className='bg-zinc-800 w-max
-            rounded-2xl h-auto p-2
+            <div className='bg-zinc-800 
+            rounded-2xl h-auto p-1 xsm:ml-7 w-max
+            ml-8 mt-6 mb-8
             sm:ml-[140px]
             sm:mt-10
             md:ml-[200px]
@@ -47,7 +43,7 @@ const Education = () => {
             2xl:ml-[520px]'>
 
               <img src={uni} alt="not found" className=' rounded-xl sm:ml-16
-              mt-4 sm:w-[210px] sm:h-[170px] 
+              mt-4 sm:w-[210px] sm:h-[170px] ml-8 mb-4  
               lg:ml-4
               lg:mt-1'></img>
               <div className='sm:mt-6 sm:p-2 lg:ml-5 lg:text-lg'>
@@ -61,6 +57,7 @@ const Education = () => {
 
             <div className='bg-zinc-800 w-max
             rounded-2xl h-auto p-2
+            ml-10   xsm:ml-8
             sm:ml-[140px]
             sm:mt-10
             md:ml-[200px]
@@ -71,7 +68,7 @@ const Education = () => {
             lg:mt-4'>
 
               <img src={college} alt="not found" className=' rounded-xl sm:ml-16
-              mt-4 sm:w-[210px] sm:h-[170px] 
+              mt-4 sm:w-[210px] sm:h-[170px] w-[230px] ml-10 mb-5
               lg:ml-4
               lg:mt-1'></img>
               <div className='sm:mt-6 sm:p-2 lg:ml-5 lg:text-lg'>
@@ -89,5 +86,5 @@ const Education = () => {
     </>
   )
 }
-
 export default Education
+

@@ -7,7 +7,8 @@ const Project = () => {
   return (
     <div>
 
-      <div className='sm:ml-[250px]
+      <div className='sm:ml-[300px]
+        ml-[140px] mb-6 
         md:ml-[320px]
         mt-20
         lg:ml-[480px]

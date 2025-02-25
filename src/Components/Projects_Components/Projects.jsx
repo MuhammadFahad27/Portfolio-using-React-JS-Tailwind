@@ -30,11 +30,12 @@ const Projects = () => {
     lg:ml-[10px]
     xl:ml-[130px]
     2xl:ml-[250px] 
+    ml-14 
     
     ${project2}`}>
        
         <div className="bg-zinc-800 w-[280px] rounded-xl 
-        sm:ml-[170px] sm:mt-6 
+        sm:ml-[170px] sm:mt-6 mb-6
         ">
             <img src={quiz} alt="" className="w-[500px]" />
             <h1 className='text-white'>Quiz App using - JS</h1>
@@ -98,7 +99,7 @@ const Projects = () => {
         </div>
     </div>
     <div className={`bg-zinc-800 w-[280px] rounded-xl 
-        sm:ml-[170px] sm:mt-6
+        sm:ml-[225px] sm:mt-8 mt-6 ml-14
          md:ml-[260px]
          lg:ml-[400px]
          xl:ml-[530px]
